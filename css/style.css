@@ -1,0 +1,67 @@
+.canvas {
+    /* background-color: rgb(241, 238, 233); */
+    background-image: url(../image/screanimg2.png);
+    background-size: cover;
+    display: flex;
+    margin: 0 auto !important;
+    width: 80%;
+    height: 50%;
+    border: 3px solid black;
+}
+
+body {
+    background-image: url(../image/download.jfif);
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 45px;
+}
+
+.textcenter {
+    color: white;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+    margin-right: 35%;
+}
+
+
+/*  */
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px
+}
+
+#ps {
+    background-color: #2C2891;
+}
+
+#py {
+    background-color: #1C7947;
+}
+
+.play:hover {}
+
+.pause:hover {
+    background-color: darkred;
+}
